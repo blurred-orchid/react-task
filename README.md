@@ -1,11 +1,13 @@
 Используемые библиотеки:
+
     axios https://axios-http.com/ru/docs/intro,
     react-switch https://www.npmjs.com/package/react-switch,
     react-icons https://react-icons.github.io/react-icons,
     react-routers https://reactrouter.com/en/main.
 
 некоторые компоненты рендерятся дважды из-за строго режиа react:
-    https://ru.stackoverflow.com/questions/1405415/useeffect-%D0%B2%D1%8B%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F-2-%D1%80%D0%B0%D0%B7%D0%B0-%D0%BF%D1%80%D0%B8-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B5-%D0%BD%D0%B5%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8F-%D0%BD%D0%B0-%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9?ysclid=l9q0dmh59h100508944.
+
+    https://ru.stackoverflow.com/questions/1405415/useeffect-%D0%B2%D1%8B%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%D1%81%D1%8F-2-%D1%80%D0%B0%D0%B7%D0%B0-                       %D0%BF%D1%80%D0%B8-%D1%80%D0%B5%D0%BD%D0%B4%D0%B5%D1%80%D0%B5-%D0%BD%D0%B5%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8F-%D0%BD%D0%B0-%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9-       %D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2-%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B5%D0%B9?ysclid=l9q0dmh59h100508944.
 
 По ТЗ:
     Есть 2 страницы: 
@@ -26,6 +28,7 @@
         Импортируется класс Validate м вызывается функция isValid
 
 Дополнительно:
+
     1 задание : url из html не выполнено
     2 задание : навигация есть с помощью библиотеки react-routers, пример перехода к редактированию опеределенного канала - /channel/{id}
     3 задание : свитчер меняет активность канала и отправляет на сервер
