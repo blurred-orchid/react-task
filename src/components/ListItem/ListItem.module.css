@@ -1,0 +1,45 @@
+.ListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.ListItem:hover{
+  background-color: rgb(235 236 240);
+}
+
+.info{
+    display: flex;
+}
+
+.info.button > *{
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.info_name{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info_name_title{
+    font-size: larger;
+    font: 20px sans-serif;
+}
+.info_name_type{
+    color: gray;
+}
+.ListItem > .info > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+  
+ 

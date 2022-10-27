@@ -1,0 +1,50 @@
+.MyButton{
+    padding: 10px;
+    background-color: #087ea4;
+    border: 1px solid #087ea4;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-family: Optimistic Display,-apple-system,ui-sans-serif,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    white-space: nowrap;
+}
+
+.MyButton:hover{
+    opacity: 0.8;
+}
+
+.MyButton.big{
+    height: 60px;
+    font-size: 24px;
+}
+
+.MyButton > svg{
+    width: 30px;
+    height: 30px;
+}
+
+.MyButton_revers{
+    background-color: white ;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.MyButton_revers > *{
+    color: #087ea4;
+}
+
+.MyButton_revers:hover{
+    background-color: #087ea4 ;
+    border: 1px solid #087ea4;  
+}
+
+.MyButton_revers:hover > * {
+    color:white
+}

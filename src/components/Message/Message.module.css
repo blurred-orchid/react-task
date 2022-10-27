@@ -1,0 +1,31 @@
+.message_body{
+    width: 240px;
+    height: auto;
+    background-color: rgb(235 236 240);
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    padding: 10px;
+    border: 1px solid rgb(221, 222, 226);
+    border-radius: 3px;
+    z-index:99999999;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(221, 222, 226);
+    padding-bottom: 5px;
+}
+
+.head > *{
+    width: 20px;
+    height: 20px;
+    color: #087ea4;
+    cursor: pointer;
+}
+
+.message{
+    padding-top: 5px;
+}

@@ -1,0 +1,39 @@
+.My_Input{
+    padding: 10px;
+    outline: none; 
+    background-color: rgb(235 236 240);
+    border: 0;
+    border-radius: 3px;
+    font-size: large;
+}
+
+.Search{
+    display: flex;
+    border: 1px solid rgb(235 236 240);
+    background-color: rgb(235 236 240);
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin: 0 10px; 
+    height: 30px;   
+}
+
+.Search > *{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.Search > .Search_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.Search > .Search_input{
+    outline: none; 
+    background-color: rgb(235 236 240);  
+}

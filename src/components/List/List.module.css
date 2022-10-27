@@ -1,0 +1,13 @@
+.List{
+    padding: 20px;
+}
+
+.Modal_button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Modal_button > * {
+    width: 120px;
+    height: 60px;
+}
